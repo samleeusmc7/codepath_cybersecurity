@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **2** hours spent in total
+Time spent: **12** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -22,9 +22,10 @@ Time spent: **2** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [X] GIF Walkthrough: https://imgur.com/6vrcc1Z 
-  - [ ] Steps to recreate: 
+  - [X] Steps to recreate: 
+    - Createa a new page and in the title type in <BODY ONLOAD=alert('XSS')>
+    - Then view the page and the XSS attack will occur
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:

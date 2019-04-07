@@ -16,7 +16,7 @@ Time spent: **2** hours spent in total
     - Create a new post and in the title type in <a href = " " onmouseover = "alert('XSS!'); ">exploit 1 (xss) </a>
     - Then view the post and hover over the title of the post and the XSS attack will occur
   - [ ] Affected source code:
-1. (Required) Vulnerability Name or ID
+2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:

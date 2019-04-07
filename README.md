@@ -26,7 +26,7 @@ Time spent: **12** hours spent in total
     - Fixed in version: 4.2.1
   - [X] GIF Walkthrough: https://imgur.com/6vrcc1Z 
   - [X] Steps to recreate: 
-    - Createa a new page and in the title type in <BODY ONLOAD=alert('XSS')>
+    - Create a new page and in the title type in <BODY ONLOAD=alert('XSS')>
     - Then view the page and the XSS attack will occur
   - [ ] Affected source code:
 3. (Required) Vulnerability Name or ID WPVDB 8111
@@ -36,6 +36,9 @@ Time spent: **12** hours spent in total
     - Fixed in version: 4.2.3
   - [X] GIF Walkthrough: https://imgur.com/4dcmb4n
   - [X] Steps to recreate: 
+    - Create a new page and in the title type in <"beginning tag">a href="http://localhost/wp-content/uploads/2019/04/cybersecurity.jpeg"><img class="alignnone size-full wp-image-38" src="http://localhost/wp-content/uploads/2019/04/cybersecurity.jpeg" alt="cybersecurity" onmouseover = "alert('XSS ATTACK!')" width="259" height="194" /><"end tag">
+    - Make sure to put the beginning and end tags (<"a"> <"/a">)
+    - Do not add the quotes for the tags
   - [ ] Affected source code:
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 

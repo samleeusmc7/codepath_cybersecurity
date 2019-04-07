@@ -39,6 +39,7 @@ Time spent: **12** hours spent in total
     - Create a new page and in the title type in <"beginning tag">a href="INSERT AN IMAGE "><img class="alignnone size-full wp-image-38" src=" INSERT AN IMAGE " alt=" NAME OF IMAGE " onmouseover = "alert('XSS ATTACK!')" width="259" height="194" /><"end tag">
     - Make sure to put the beginning and end tags (<"a"> <"/a">)
     - Do not add the quotes for the tags
+    - Then hover over the image and the XSS attack will occur
   - [ ] Affected source code:
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 

@@ -16,6 +16,7 @@ Time spent: **12** hours spent in total
     - Create a new post and in the title type in
     - <"beginnig tag">a href = " " onmouseover = "alert('XSS!'); ">exploit 1 (xss)<"end tag">
     - Make sure to put the beginning and end tags (<"a"> <"/a">)
+    - Do not add the quotes for the tags
     - Then view the post and hover over the title of the post and the XSS attack will occur
   - [ ] Affected source code:
 2. (Required) Vulnerability Name or ID WPVDB ID 7979

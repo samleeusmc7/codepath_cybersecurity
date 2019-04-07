@@ -29,12 +29,12 @@ Time spent: **12** hours spent in total
     - Createa a new page and in the title type in <BODY ONLOAD=alert('XSS')>
     - Then view the page and the XSS attack will occur
   - [ ] Affected source code:
-3. (Required) Vulnerability Name or ID
+3. (Required) Vulnerability Name or ID WPVDB 8111
   - [X] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: XSS
     - Tested in version: 4.2
-    - Fixed in version: 
-  - [X] GIF Walkthrough:
+    - Fixed in version: 4.2.3
+  - [X] GIF Walkthrough: https://imgur.com/4dcmb4n
   - [X] Steps to recreate: 
   - [ ] Affected source code:
 1. (Optional) Vulnerability Name or ID

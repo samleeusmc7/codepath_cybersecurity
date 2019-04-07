@@ -6,7 +6,7 @@ Time spent: **2** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID
+1. (Required) Vulnerability Name or ID : WPVDB ID 7945
   - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2

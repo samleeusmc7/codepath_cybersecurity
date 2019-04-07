@@ -14,7 +14,7 @@ Time spent: **12** hours spent in total
   - [X] GIF Walkthrough: https://imgur.com/mBhEwaf
   - [X] Steps to recreate: 
     - Create a new post and in the title type in
-    - <beginnig tag>a href = " " onmouseover = "alert('XSS!'); ">exploit 1 (xss)<end tag>
+    - <"beginnig tag">a href = " " onmouseover = "alert('XSS!'); ">exploit 1 (xss)<"end tag">
     - Make sure to put the beginning and end tags (<"a"> <"/a">)
     - Then view the post and hover over the title of the post and the XSS attack will occur
   - [ ] Affected source code:

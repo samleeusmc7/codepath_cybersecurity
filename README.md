@@ -13,7 +13,8 @@ Time spent: **12** hours spent in total
     - Fixed in version: 4.2.1
   - [X] GIF Walkthrough: https://imgur.com/mBhEwaf
   - [X] Steps to recreate: 
-    - Create a new post and in the title type in a href = " " onmouseover = "alert('XSS!'); ">exploit 1 (xss)
+    - Create a new post and in the title type in (a href = " " onmouseover = "alert('XSS!'); ">exploit 1 (xss))
+    - Make sure to put the beginning and end tags <a> </a>
     - Then view the post and hover over the title of the post and the XSS attack will occur
   - [ ] Affected source code:
 2. (Required) Vulnerability Name or ID WPVDB ID 7979

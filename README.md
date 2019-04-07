@@ -21,7 +21,7 @@ Time spent: **2** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [X] GIF Walkthrough: 
+  - [X] GIF Walkthrough: https://imgur.com/6vrcc1Z 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -30,7 +30,7 @@ Time spent: **2** hours spent in total
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: https://imgur.com/6vrcc1Z
+  - [ ] GIF Walkthrough:
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)

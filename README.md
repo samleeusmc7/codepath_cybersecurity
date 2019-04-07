@@ -7,12 +7,14 @@ Time spent: **2** hours spent in total
 ## Pentesting Report
 
 1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+  - [X] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
   - [X] GIF Walkthrough: https://imgur.com/mBhEwaf
-  - [ ] Steps to recreate: 
+  - [X] Steps to recreate: 
+    - Create a new post and in the title type in <a href = " " onmouseover = "alert('XSS!'); ">exploit 1 (xss) </a>
+    - Then view the post and hover over the title of the post and the XSS attack will occur
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
